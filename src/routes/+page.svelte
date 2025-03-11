@@ -8,12 +8,12 @@
 
   const {data}:Props = $props()
 
-    console.log('component init tag:', languageTag())
+    console.log('component init languageTag:', languageTag())
 </script>
 <pre>1. Run `npm run build && node build`</pre>
 <pre>2. Go directly to http://YOUR_DOMAIN:YOUR_PORT/ro</pre>
 <pre>3. Tag from load function should be 'ro', not the default language 'en'</pre>
 <pre>4. You might be required to delete server.allowedHosts from vite.config.ts for this to work (this was requirement specific to the dev environment of the author)</pre>
 <pre>Results:</pre>
-<pre>tagFromLoadFunction: <strong>{data.tagFromLoad}</strong></pre>
-<pre>tagFromSvelteComponentInitialization: <strong>{languageTag()}</strong></pre>
+<pre>langaugeTagFromLoadFunction: <strong>{data.tagFromLoad}</strong></pre>
+<pre>langaugeTagFromSvelteComponentInitialization: <strong>{languageTag()}</strong></pre>
