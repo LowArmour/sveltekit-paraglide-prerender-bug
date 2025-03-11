@@ -1,12 +1,13 @@
 # Steps to reproduction
 
 ```bash
+git clone https://github.com/LowArmour/sveltekit-paraglide-prerender-bug.git
+
 cd sveltekit-paraglide-prerender-bug
 
 npm i
 
 npm run deploy:stage
-
 ```
 
 Go to http://127.0.0.1:5173
